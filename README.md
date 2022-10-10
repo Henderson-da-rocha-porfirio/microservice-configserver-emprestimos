@@ -1,4 +1,4 @@
-# Loans(Emprestimo) Service Dockerizada sem definições no Dockerfile
+# microservice-configserver-emprestimos
 ### Acessando ao H2
 ### - Lembrar:
 #### a. Criar um arquivo sql: data.sql
