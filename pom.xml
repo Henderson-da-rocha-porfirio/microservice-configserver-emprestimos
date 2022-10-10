@@ -54,7 +54,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>tuyosistema/${project.artifactId}</name>
+                        <name>hendersonporfirio/${project.artifactId}</name>
                     </image>
                 </configuration>
             </plugin>
