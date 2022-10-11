@@ -3,23 +3,19 @@
  */
 package com.tuyo.loans.config;
 
-import java.util.List;
-import java.util.Map;
+import lombok.*;
+import org.springframework.boot.context.properties.*;
+import org.springframework.context.annotation.*;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
-
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import java.util.*;
 
 /**
  * @author Eazy Bytes
  *
  */
 @Configuration
-@ConfigurationProperties(prefix = "loans")
-@Getter @Setter @ToString
+@ConfigurationProperties(prefix = "loansconfigserver")
+@Data
 public class LoansServiceConfig {
 
 	 private String msg;
