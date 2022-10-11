@@ -16,7 +16,7 @@
     <name>loansconfigserver</name>
     <description>Microservice for Loans</description>
     <properties>
-        <java.version>14</java.version>
+        <java.version>11</java.version>
         <spring-cloud.version>2021.0.4</spring-cloud.version>
     </properties>
     <dependencies>
