@@ -9,10 +9,6 @@ import org.springframework.context.annotation.*;
 
 import java.util.*;
 
-/**
- * @author Eazy Bytes
- *
- */
 @Configuration
 @ConfigurationProperties(prefix = "loansconfigserver")
 @Data
